@@ -12,7 +12,10 @@ function myFunction(a, b) {
     return count;
 }
 
-
+// author solution
+// function myFunction(a, b) {
+//     return b.split(a).length - 1
+//   }
 
 // myFunction('m', 'how many times does the character occur in this sentence?')
 // Expected
