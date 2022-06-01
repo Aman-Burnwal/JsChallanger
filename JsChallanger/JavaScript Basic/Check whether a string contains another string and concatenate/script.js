@@ -4,10 +4,22 @@
 // Return the concatenation
 
 
-function myFunction(a, b){
+function myFunction(a, b) {
+     
     return a.includes(b) ? b + a : a + b
 }
 
-var re = myFunction("aman", "am");
-
-console.log(re);
+/* 
+myFunction('cheese', 'cake')
+Expected
+'cheesecake'
+myFunction('lips', 's')
+Expected
+'slips'
+myFunction('Java', 'script')
+Expected
+'Javascript'
+myFunction(' think, therefore I am', 'I')
+Expected
+'I think, therefore I am'
+*/
